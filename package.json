@@ -4,8 +4,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "lint": "eslint --ext js,jsx,ts,tsx .",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
-    "start": "react-scripts start"
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\""
   },
   "husky": {
     "hooks": {
@@ -29,23 +28,6 @@
     "husky": "^4.3.5",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-scripts": "^5.0.1",
-    "tachyons": "4.12.0",
-    "typescript": "^3.8.3",
-    "web-vitals": "^2.1.4"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "typescript": "^3.8.3"
   }
 }
