@@ -1,9 +1,6 @@
 {
   "footer": {
-    "allowed": [
-      "footer-layout.mobile",
-      "footer-layout.desktop"
-    ],
+    "allowed": ["footer-layout.mobile", "footer-layout.desktop"],
     "component": "Footer",
     "content": {
       "$ref": "app:vtex.store-footer#/definitions/Footer"
@@ -57,5 +54,8 @@
   },
   "footer-spacer": {
     "component": "Spacer"
+  },
+  "wishlist-button": {
+    "component": "WishlistButton"
   }
 }

@@ -12,7 +12,7 @@
   "flex-layout.row#powered-by": {
     "children": ["flex-layout.col#powered-by"],
     "props": {
-      "paddingTop": 4,
+      "paddingTop": 20,
       "paddingBottom": 4
     }
   },
